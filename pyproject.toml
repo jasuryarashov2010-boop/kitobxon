@@ -1,0 +1,9 @@
+[project]
+name = "kitobxon-tavsiya-bot"
+version = "1.0.0"
+description = "Telegram book recommendation moderation bot"
+requires-python = ">=3.13,<3.14"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+asyncio_mode = "auto"
